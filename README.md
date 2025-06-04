@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# movie-hub
-=======
+
 # Table Of Content
 
 - Movie-App
@@ -25,7 +23,7 @@ some of the functionlitie of the app includes: a user can search for its favorit
 
 # Link to project
 
-[https://riches-movie-app.netlify.app/]
+[https://jmovie-hub.netlify.app/]
 
 
 # Usage
@@ -45,4 +43,4 @@ some of the functionlitie of the app includes: a user can search for its favorit
  
  # Prod
  npm start
->>>>>>> cf28939 (first commit)
+
