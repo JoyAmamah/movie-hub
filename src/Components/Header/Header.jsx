@@ -12,18 +12,28 @@ const Header = ({
   onSetFilterYear,
 }) => {
   return (
-    <header className="flex flex-col gap-4 md:flex-row md:justify-between items-center ">
-      <h1 className="text-2xl font-bold"> Movie_Hub</h1>
-      <SearchInputs setSearchValue={setSearchValue} searchValue={searchValue} />
-      <FilterInputs
-        onFilterGenre={onFilterGenre}
-        onSetFilterGenre={onSetFilterGenre}
-      />
-      <FilterYearInputs
-        onFilterYear={onFilterYear}
-        onSetFilterYear={onSetFilterYear}
-      />
-    </header>
+    <div>
+      <header className="flex flex-col gap-4 md:flex-row md:justify-between items-center ">
+        <h1 className="text-2xl font-bold"> MOVIE HUB</h1>
+
+        <div className="flex flex-row gap-4 justify-between">
+          <FilterInputs
+            onFilterGenre={onFilterGenre}
+            onSetFilterGenre={onSetFilterGenre}
+          />
+          <FilterYearInputs
+            onFilterYear={onFilterYear}
+            onSetFilterYear={onSetFilterYear}
+          />
+        </div>
+      </header>
+      <div className="flex justify-center items-center my-3">
+        <SearchInputs
+          setSearchValue={setSearchValue}
+          searchValue={searchValue}
+        />
+      </div>
+    </div>
   );
 };
 

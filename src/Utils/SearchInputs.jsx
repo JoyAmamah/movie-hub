@@ -4,7 +4,7 @@ const SearchInputs = ({ searchValue, setSearchValue }) => {
   return (
     <input
       type="text"
-      className="form-input w-full first-line:"
+      className="form-input w-full rounded-md first-line:"
       value={searchValue}
       placeholder="Type To Search For Movies"
       onChange={(e) => setSearchValue(e.target.value)}
