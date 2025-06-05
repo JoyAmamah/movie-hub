@@ -9,7 +9,6 @@ const MoviesList = ({ movie, genreList, loading }) => {
   }
 
   const { genre_ids } = movie;
-  // console.log("id", genre_ids);
   const genereNames = genreList
     ? genre_ids.map((id) => {
         return genreList.find((genre) => genre?.id === id);

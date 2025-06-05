@@ -13,7 +13,7 @@ const Header = ({
 }) => {
   return (
     <header className="flex flex-col gap-4 md:flex-row md:justify-between items-center ">
-      <h1 className="text-2xl font-bold"> Movies</h1>
+      <h1 className="text-2xl font-bold"> Movie_Hub</h1>
       <SearchInputs setSearchValue={setSearchValue} searchValue={searchValue} />
       <FilterInputs
         onFilterGenre={onFilterGenre}

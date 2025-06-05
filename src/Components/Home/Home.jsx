@@ -14,7 +14,6 @@ import MoviesList from "../Movies/MoviesList";
 const Home = () => {
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  // const [error, setError] = useState(false);
   const [searchValue, setSearchValue] = useState("");
   const [filterGenre, setFilterGenre] = useState("");
   const [filterYear, setFilterYear] = useState("");
